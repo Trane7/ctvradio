@@ -1,0 +1,39 @@
+.text-box {
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+  
+  
+  
+      &:hover &__section--content{
+      transition: all .25s linear;
+      height: 0rem;
+      overflow: hidden;
+    }
+  
+    &__section {
+      overflow: hidden;
+      border-bottom: 1px solid;
+  
+     
+  
+      &--title {
+        font-weight: 700;
+        padding: 1rem;
+        margin: 0;
+      }
+  
+      &--content {
+        transition: all .25s linear;
+        height: 0rem;
+      }
+  
+      
+      &:hover  &--content, 
+      &-default &--content{
+        height: 25rem;
+      }
+    }
+  
+  }

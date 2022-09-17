@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<title>Demetre Growette Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- <link href='http://fonts.googleapis.com/css?family=Lato:100,400,700,900' rel='stylesheet' type='text/css'> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-sidebar" id="myNavbar">
+            <a class="w3-bar-item button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item button w3-hide-small">
+                <i class="fa fa-home fa-2x"></i>
+            </a>
+            <a href="#portfolio" class="w3-bar-item button w3-hide-small">
+                <i class="fa fa-th fa-2x"></i>
+            </a>
+            <a href="#about" class="w3-bar-item button w3-hide-small">
+                <i class="fa fa-user fa-2x"></i>
+            </a>
+            <a href="#contact" class="w3-bar-item button w3-hide-small">
+                <i class="fa fa-envelope fa-2x"></i>
+            </a>
+        </div>
+        <!-- Navbar on small screens -->
+        <div id="mobileNav" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#home" class="w3-bar-item button" onclick="toggleFunction()">HOME</a>
+            <a href="#portfolio" class="w3-bar-item button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#about" class="w3-bar-item button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#contact" class="w3-bar-item button" onclick="toggleFunction()">CONTACT</a>
+        </div>
+    </div>
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg bgimg-1 w3-display-container" id="home">
+        <div class="w3-display-middle title" style="white-space:nowrap;">
+            <span class="w3-center w3-black w3-xlarge w3-wide">
+                <span class="w3-hide-small">HELLO, I'M</span>
+                <span> DEMETRE GROWETTE.</span>
+                <br>
+                <span class="w3-hide-small"> FRONT-END WEB DEVELOPER</span>
+            </span>
+        </div>
+    </div>
+    <!-- Container (Portfolio Section) -->
+    <div class=" w3-container w3-padding-64" id="portfolio">
+        <div class="section bg1"></div>
+        <br>
+        <h3 class="w3-center">MY CREATIONS</h3>
+        <p class="w3-center">
+            <em>Here are some of my latest projects.
+        </p>
+        <br>
+        <!-- Responsive Grid. Three columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center w3-section">
+            <div class="w3-col m4">
+                <div class="card">
+                    <img class="card__img" src="assets/pic/ctvlogosm.jpg" alt="Get Lost">
+                    <h2 class="card__title">CTV Radio</h2>
+                    <p class="card__text">Independent Radio Station webpage that will soon have merch to purchase.</p>
+                    <a class="card__btn" href="https://github.com/scotrenz/GetLost" target="_blank" class="">URL</a>
+                    <a class="card__btn" href="https://github.com/GetLost-Project/GetLost-Project" target="_blank"
+                        class=""><i class="fa fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="w3-col m4">
+                <div class="card">
+                    <img class="card__img" src="assets/pic/plenty.png" alt="Adventours Website">
+                    <h2 class="card__title">Plenty.</h2>
+                    <p class="card__text">A Full-Stack recipe app that helps the uswer find recipes based off
+                        the ingredients they currently have.</p>
+                    <a class="card__btn" href="https://scotrenz.github.io/Adventours/" target="_blank" class="">URL</a>
+                    <a class="card__btn" href="https://github.com/scotrenz/Adventours" target="_blank" class=""><i
+                            class="fa fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="w3-col m4">
+                <div class="card">
+                    <img class="card__img" src="assets/pic/consolethis.png" alt="Brushworks Website">
+                    <h2 class="card__title">Console This</h2>
+                    <p class="card__text">This app was designed to help the user find the latest gaming consoles close
+                        to their location.</p>
+                    <a class="card__btn" href="https://scotrenz.github.io/Brushworks-Painting/" target="_blank"
+                        class="">URL</a>
+                    <a class="card__btn" href="https://github.com/scotrenz/Brushworks-Painting" target="_blank"
+                        class=""><i class="fa fa-github fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-center w3-section">
+            <div class="w3-col m4">
+                <div class="card">
+                    <img class="card__img" src="assets/pic/quick-quack2.png" alt="Crypto Tracker">
+                    <h2 class="card__title">Quick Quack Quiz</h2>
+                    <p class="card__text">This is a Full-Stack application that allows the users to take, make, and
+                        share their own quizzes.</p>
+                    <a class="card__btn" href="https://tranquil-savannah-22908.herokuapp.com/" target="_blank"
+                        class="">URL</a>
+                    <a class="card__btn" href="https://github.com/Crypto-Tracker/Crypto-Tracker" target="_blank"
+                        class=""><i class="fa fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="w3-col m4">
+                <div class="card">
+                    <img class="card__img" src="assets/pic/budget.png" alt="New York Times Saver">
+                    <h2 class="card__title">Budget Tracker</h2>
+                    <p class="card__text">An app that allows you to set and track your monthly budgets.</p>
+                    <a class="card__btn" href="" class="" target="_blank" disabled>Not Currently Hosted</a>
+                    <a class="card__btn" href="https://github.com/Trane7/PWA-budget-tracker" target="_blank" class=""><i
+                            class="fa fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="w3-col m4">
+                <div class="card">
+                    <img class="card__img" src="assets/pic/virtual.png" alt="Verify Project">
+                    <h2 class="card__title">Virtual Notes</h2>
+                    <p class="card__text">An app that keeps track of your personal virtual notes.</p>
+                    <a class="card__btn" href="https://virtualnote.herokuapp.com/" target="_blank" class="">URL</a>
+                    <a class="card__btn" href="https://github.com/Trane7/virtual-notes" target="_blank" class=""><i
+                            class="fa fa-github fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Tech Icons-->
+    <div class="w3-row w3-center bg1 w3-padding-16">
+        <div class="w3-third w3-section">
+            <img class="icon" src="assets/icons/icons8-facebook.svg">
+            <img class="icon" src="assets/icons/css.svg">
+            <img class="icon" src="assets/icons/javascript.svg">
+            <img class="icon" src="assets/icons/jquery.svg">
+        </div>
+        <div class="w3-third w3-section">
+            <img class="icon" src="assets/icons/sass.svg">
+            <img class="icon" src="assets/icons/react.svg">
+            <img class="icon" src="assets/icons/node.svg">
+            <img class="icon" src="assets/icons/express.svg">
+        </div>
+        <div class="w3-third w3-section">
+            <img class="icon" src="assets/icons/handlebars.svg">
+            <img class="icon" src="assets/icons/mongodb.svg">
+            <img class="icon" src="assets/icons/mysql.svg">
+            <img class="icon" src="assets/icons/github.svg">
+        </div>
+    </div>
+    <!-- Second Parallax Image with About Text -->
+    <div class="bgimg bgimg-2 w3-display-container">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-black w3-wide">ABOUT</span>
+        </div>
+    </div>
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">DEMETRE GROWETTE</h3>
+        <div class="w3-row">
+            <div class="u-margin-top-medium">
+                <div class="w3-col m6 w3-center w3-padding-large">
+                    <div class="profile__section-left">
+                        <div class="image-responsive">
+                            <img class="w3-image image-responsive__picture" src="assets/pic/me5.png"
+                                alt="Photo of Me" width="500" height="333">
+                            <div class="image-responsive__overlay">
+                                <h2></h2>
+                                <p class="image-responsive__overlay--set1">
+                                    <a href="https://github.com/Trane7" target="_blank"><i
+                                        class="fa fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/demetre-growette-0776a7b7/" target="_blank"><i
+                                            class="fa fa-linkedin"></i></a>
+                                    
+                                </p>
+                                <hr>
+                                <hr>
+                                <p class="image-responsive__overlay--set2">
+                                    <a href="https://docs.google.com/document/d/1Rl9pXG5k9HlEfBj2H5fiDfvbMp3aPS6vNDCwy3IiuS8/edit#heading=h.628phil8unj9" target="_blank"><i
+                                            class="fa fa-file"></i></a>
+                                    <a href="https://github.com/Trane7/PortfolioFinal" target="_blank"><i
+                                            class="fa fa-github"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hide this text on small devices -->
+                <div class="w3-col m6 w3-hide-small w3-padding-large">
+                    <div class="profile__section-right">
+                        <div class="text-box">
+                            <div class="text-box__section text-box__section-default">
+                                <h4 class="text-box__section--title">Constantly Hungry, Consistently Coding</h4>
+                                <div class="text-box__section--content">
+                                    <p>
+                                        Welcome! Thank you for taking the time out of your day to view my
+                                        progress so far. My name is Demetre Growette, I am a very outgoing
+                                        individual who is easy to work with and tends to make work life more
+                                        exciting. Last year I decided that I needed a change of direction and
+                                        am finally pursuing something that I believe is the right path for me. In
+                                        order to better myself, I chose to enter the world of coding and push
+                                        to become what everyone else told me I couldn't. Always hungry to learn new things!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-box__section">
+                                <h4 class="text-box__section--title">Why Tech?</h4>
+                                <div class="text-box__section--content">
+                                    <p>
+                                        My love of code stems from my life long passion for problem solving. I have a 
+                                        extensive background in warehousing where there is always some sort of problem that
+                                        needs solving. It also stems from my ocd of not leaving a problem unsolved. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-box__section">
+                                <h4 class="text-box__section--title">My Skills</h4>
+                                <div class="text-box__section--content">
+                                    <p>
+                                        My skillset consists of HTML5,
+                                        CSS3, JavaScript, JQuery, Sass, Express.js, Handlebars.js, MongoDB, MySQL, Git &
+                                        React.js.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Third Parallax Image with Contact Text -->
+    <div class="bgimg bgimg-3 w3-display-container">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        </div>
+    </div>
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">How to contact me.</h3>
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Sacramento, CA
+                    <br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (612)
+                    860-9181
+                    <br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+                    Dgrowette@gmail.com
+                    <br>
+                </div>
+                <p>Feel free to leave me a note:
+                </p>
+                <form id="contact-form" method="POST" action="https://formspree.io/f/xqkjedld">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <input type="text" name="_gotcha" style="display:none" />
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" name="message" placeholder="Message" required
+                        name="Message">
+                    <button class="button w3-black w3-right w3-section" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                    <input type="hidden" name="_next" value="scotrenz.github.io" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+        <div class="w3-xlarge w3-section">
+            <a href="https://github.com/Trane7/" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+            <a href="https://docs.google.com/document/d/1Rl9pXG5k9HlEfBj2H5fiDfvbMp3aPS6vNDCwy3IiuS8/edit#"
+                target="_blank"><i class="fa fa-file w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/demetre-growette-0776a7b7/" target="_blank"><i
+                    class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+        <div>Demetre Growette&copy;</div>
+    </footer>
+
+    <script type="text/javascript" src="js/logic.js"></script>
+</body>
+
+</html>

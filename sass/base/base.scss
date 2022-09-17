@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    //This defines 1rem
+    font-size: 62.5%;
+}
+
+body,
+html {
+    height: 100%;
+    color: $text-color-primary;
+    line-height: 1.8;
+    background: linear-gradient( 
+        to right,
+      rgba($color-primary-light, 1),
+      rgba($color-primary-dark, 1));
+    background-size: cover;
+}

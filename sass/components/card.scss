@@ -1,0 +1,67 @@
+.card {
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding-bottom: 2em;
+  
+    --mouseX: 0;
+    --mouseY: 0;
+    --padding: 1em;
+  
+    background: transparent;
+    position: relative;
+    display: block;
+    position: relative;
+    top: calc(var(--padding) * -1);
+    bottom: calc(var(--padding) * -1);
+    left: calc(var(--padding) * -1);
+    right: calc(var(--padding) * -1);
+    content: " ";
+  
+    background: $text-color-primary;
+    transform: perspective(700px) rotateX(calc(var(--mouseY) * -1deg))
+      rotateY(calc(var(--mouseX) * 1deg));
+    border-radius: 6px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    &__title {
+      margin: 0 auto;
+      color: $color-white;
+      text-align: center;
+      text-transform: capitalize;
+    }
+  
+    &__img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      margin: 1em auto;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+    }
+  
+    &__text {
+      margin: 2em 5%;
+      color: rgba($color-white, 0.8);
+    }
+  
+   
+      &__btn {
+        padding: 0.7em 2em;
+        background: radial-gradient(
+          rgba($color-primary-dark, 1),
+          rgba($color-primary-dark, 0.3)
+        );
+        color: $color-white;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 1em auto 0;
+        border-radius: 2px;
+  
+        &:hover {
+          opacity: 0.8;
+        }
+        &>i{
+          transform: translateY(20%)
+        }
+      }
+  }

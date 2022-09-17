@@ -1,0 +1,15 @@
+#myNavbar {
+    color: $color-white;
+    background: transparent;
+    width: 50px;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+    z-index: 100;
+}
+
+#mobileNav {
+    z-index: 10;
+}
