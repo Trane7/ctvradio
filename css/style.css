@@ -55,7 +55,7 @@ html::-webkit-scrollbar {
   to {
     opacity: 1; } }
 
-/* @keyframes noise-anim {
+@keyframes noise-anim {
   0% {
     clip: rect(37px, 9999px, 72px, 0); }
   5% {
@@ -155,7 +155,7 @@ html::-webkit-scrollbar {
     z-index: 0; }
   100% {
     visibility: hidden;
-    z-index: 0; } } */
+    z-index: 0; } }
 
 .u-center-text {
   text-align: center; }
@@ -207,6 +207,26 @@ body {
   .button:hover {
     opacity: .5;
     background-color: transparent; }
+
+.btn {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: black;
+  font-size: x-large;
+}
+  .btn:hover{
+    color: #6b0c0c;
+  }
+
+
+a{    /* for shop now button */
+  text-decoration: none;
+}
 
 .bgimg {   
   background-attachment: fixed;
@@ -527,8 +547,8 @@ body {
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
+.slideshow-container {   /* This is how to size teh carousel */
+  max-width: 600px;
   position: relative;
   margin: auto;
 }
