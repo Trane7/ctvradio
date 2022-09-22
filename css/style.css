@@ -492,6 +492,10 @@ a{    /* for shop now button */
   -o-animation: fadein 1.5s;
   animation: fadein 1.5s; }
 
+  p{
+    font-size: xx-large;
+  }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -533,7 +537,8 @@ a{    /* for shop now button */
   transform-origin: left; }
 
 .profile__section-right {
-  height: 47rem; }
+  height: 47rem; 
+}
 
 
 
@@ -547,7 +552,7 @@ a{    /* for shop now button */
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {   /* This is how to size teh carousel */
+.slideshow-container {   /* This is how to size the carousel */
   max-width: 600px;
   position: relative;
   margin: auto;
