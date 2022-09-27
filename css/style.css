@@ -538,8 +538,8 @@ body {
 }
 .card__btn {
   padding: 0.7em 2em;
-  background: radial-gradient(#179b4e, #6360f833);
-  color: #eaf2e3;
+  background: radial-gradient(#8d0f0f, #00000033);
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   margin: 1em auto 0;
