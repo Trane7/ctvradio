@@ -544,3 +544,38 @@ blockquote {
     column-count: 3;
 
 }
+
+
+
+/* TikTok Videos  */
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+.video iframe {
+  width: 100%;
+  height: 100%;
+}
+.video-layout {
+  max-width: 1200px;
+  border: 1px solid green;
+}
+#vid-left {
+  float: left;
+  padding:5px;
+  width:33%;
+  box-sizing:border-box;
+}
+#vid-mid {
+  float: left;
+  padding:5px;
+  width:33%;
+  box-sizing:border-box;
+}
+#vid-right {
+  float: left;
+  padding:5px;
+  width:34%;
+  box-sizing:border-box;
+}
