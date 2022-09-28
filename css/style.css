@@ -23,6 +23,16 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+h2 {
+  font-size: 45px;
+}
+
+.w3-center {
+  font-weight: 700;
+  color: black;
+  -webkit-text-stroke: .3px white;
+}
+
 /* @keyframes fadein {
   from {
     opacity: 0;
@@ -307,7 +317,6 @@ body {
   background-size: cover;
 }
 .bgimg-1 {
-  /* come back and make sure the sizes are correct for mobile*/
   background-image: url("../assets/pic/ctvlogosm.png");
   min-height: 100%;
 }
@@ -534,7 +543,7 @@ body {
 }
 .card__text {
   margin: 2em 5%;
-  color: rgba(234, 242, 227, 0.8);
+  /* color: rgba(234, 242, 227, 0.8); */
 }
 .card__btn {
   padding: 0.7em 2em;
@@ -623,7 +632,8 @@ body {
 }
 
 p {
-  font-size: xx-large;
+  font-size: x-large;
+  -webkit-text-stroke: .4px goldenrod;
 }
 
 .row {
