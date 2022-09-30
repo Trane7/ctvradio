@@ -321,6 +321,7 @@ body {
   min-height: 100%;
 }
 .bgimg-2 {
+  background-image: url("../assets/pic/ctvlogosm.png");
   min-height: 50%;
 }
 .bgimg-3 {
@@ -766,3 +767,10 @@ blockquote {
 @-ms-viewport {
     width: device-width;
 }
+
+/*  mobile  */
+@media only screen and (max-width: 800px) {
+    body {
+  background-color: black;
+    }
+  }
