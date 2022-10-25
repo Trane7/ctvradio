@@ -635,6 +635,17 @@ body {
 p {
   /* font-size: x-large; */
   -webkit-text-stroke: .4px goldenrod;
+  margin-top: 110px;
+}
+
+.about-p {
+  display: flex;
+  justify-content: center;
+}
+
+.title1 {
+  display: flex;
+  margin-left: 100px;
 }
 
 .container1 {
