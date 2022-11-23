@@ -639,6 +639,10 @@ p {
   margin-right: 75px;
 }
 
+.p1{
+  font-size: x-large;
+}
+
 .about-p {
   display: flex;
   justify-content: center;
